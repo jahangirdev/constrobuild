@@ -1,0 +1,32 @@
+{
+  "name": "constrobuild",
+  "version": "1.0.0",
+  "description": "Constrobuild WordPress construnction theme",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jahangirdev/constrobuild.git"
+  },
+  "keywords": [
+    "construction",
+    "wordpress",
+    "construction",
+    "construction",
+    "theme",
+    "build",
+    "construction",
+    "company"
+  ],
+  "author": "jahangirdev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jahangirdev/constrobuild/issues"
+  },
+  "homepage": "https://github.com/jahangirdev/constrobuild#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
