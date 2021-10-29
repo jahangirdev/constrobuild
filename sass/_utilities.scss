@@ -1,3 +1,12 @@
+.cb-bg-primary {
+    background-color: $primary;
+}
+.cb-bg-secondary {
+    background-color: $secondary;
+}
+.cb-bg-light-pink {
+    background-color: $light_pink;
+}
 .cb-container-fluid {
     max-width: 1200px;
     margin: 0 auto;
@@ -53,7 +62,7 @@
     display: inline-block;
     font-weight: 400;
     line-height: 1.5;
-    color: $primary;
+    color: $secondary;
     text-align: center;
     text-decoration: none;
     vertical-align: middle;
@@ -72,7 +81,7 @@
         color: $header_top_text;
     }
 }
-.button-primary {
+.button-secondary {
     display: inline-block;
     font-weight: 400;
     line-height: 1.5;
@@ -97,4 +106,37 @@
 }
 .box-shadow-bottom {
     box-shadow: 0 2px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.cb-post-thumbnail {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.read-more {
+    text-decoration: none;
+    color: $primary;
+    &:hover {
+        color: $secondary;
+    }
+}
+.cb-list {
+    @extend .reset-list;
+    .cb-list-item {
+        padding: 8px 0;
+        a{
+            @extend .reset-link;
+            @include setFont(16px, 400, #fff);
+            &:hover {
+                color: $primary;
+            }
+        }
+    }
+}
+.card-x-img {
+    border-radius: 0.25rem 0.25rem 0 0;
+}
+@media (min-width: 992px) {
+    .card-x-img {
+        border-radius: 0.25rem 0 0 0.25rem;
+    }
 }

@@ -5,28 +5,34 @@
 
 
 /* Header top section */
-.header-top {
-    background-color: $secondary;
-    .header-contact-info, .header-social-links {
-       //
-       ul {
-           @extend .reset-list;
-           margin-bottom: 0;
-           padding-left: 0;
-           li {
-               padding: 5px 10px;
-               a {
-                   @extend .reset-link;
-                   @include setFont(14px, 400, $header_top_text);
-                   transition: all 0.5s;
-                   &:hover {
-                        color: $header_top_text_hover;
-                   }
-               }
-           }
-       }
-    }
+body{
+    background-color: $light_pink;
 }
+.header-top {
+    background-color: $primary;
+}
+.header-contact-info, .cb-social-links {
+    //
+    ul {
+        @extend .reset-list;
+        margin-bottom: 0;
+        padding-left: 0;
+        li {
+            padding: 5px 10px;
+            &:first-child{
+                padding-left: 0;
+            }
+            a {
+                @extend .reset-link;
+                @include setFont(14px, 400, $header_top_text);
+                transition: all 0.5s;
+                &:hover {
+                     color: $header_top_text_hover;
+                }
+            }
+        }
+    }
+ }
 /* Header main */
 .header-main {
     .logo-wrap{
@@ -55,15 +61,12 @@
     }
     .navbar-light .nav-link {
         @include setFont(16px, 500, $menu_text_color);
-        &:hover {
-            color: $menu_text_hover_color;
-        }
-        &.active {
+        &:hover, &.active {
             color: $menu_text_hover_color;
         }
     }
     .nav-item.dropdown:not(.show):hover .dropdown-menu {
-        display: block;
+        display: block; 
     }
     .dropdown-menu {
         border-radius: 0;
@@ -80,6 +83,16 @@
                 color: $menu_text_hover_color;
                 background-color: $dropdown_menu_item_bg;
             }
+    }
+}
+
+/* Post box */
+.post-box {
+    .post-title {
+        color: $secondary;
+        &:hover {
+            color: $primary;
+        }
     }
 }
 
