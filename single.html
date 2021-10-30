@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConstroBuild Wordpress construction theme</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!-- Start header part -->
+    <header class="site-header">
+        <!-- Start top header -->
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-lg-8">
+                        <div class="top-header-items header-contact-info">
+                            <ul class="d-flex align-items-center">
+                                <li class="d-none d-lg-inline-block">
+                                    <a href="#">
+                                        <span class="icon-wrapper me-2"><i class="bi-clock"></i></span>Mon - Sat: 7:00 -
+                                        17:00
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#"><span class="icon-wrapper me-2"><i class="bi-telephone"></i></span><span
+                                            class="d-none d-lg-inline-block">+0123456789</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span class="icon-wrapper me-2"><i class="bi-envelope"></i></span><span
+                                            class="d-none d-lg-inline-block">info@jahangirdev.com</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-4">
+                        <div class="top-header-items cb-social-links">
+                            <ul class="d-flex align-items-center justify-content-end">
+                                <li>
+                                    <a href="#">
+                                        <span class="icon-wrapper p-2"><i class="fab fa-facebook"></i></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#"><span class="icon-wrapper p-2"><i class="bi-twitter"></i></span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span class="icon-wrapper p-2"><i class="bi-instagram"></i></span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span class="icon-wrapper p-2"><i class="bi-linkedin"></i></span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span class="icon-wrapper p-2"><i class="bi-youtube"></i></span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end top header -->
+
+        <!-- start main header -->
+        <div class="header-main">
+            <nav class="navbar box-shadow-bottom navbar-light navbar-expand-lg bg-white">
+                <div class="container">
+                    <a class="navbar-brand logo-wrap" href="#">
+                        <img class="img-fluid" src="assets/img/constrobuild-logo.png" alt="">
+                    </a>
+                    <div class="header-left d-flex">
+                        <div class="action-buttons d-md-block d-lg-none">
+                            <a href="#" class="text-dark me-5 cart-icon"><i class="bi-cart"></i><span
+                                    class="cart-badge">3</span></a>
+                        </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Portfolios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Projects</a>
+                            </li>
+                        </ul>
+                        <div class="action-buttons d-flex align-items-center">
+                            <a href="#" class="text-dark me-5 cart-icon d-none d-lg-block"><i class="bi-cart"></i><span
+                                    class="cart-badge">3</span></a>
+                            <a href="#" class="button-primary ">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- end main header -->
+    </header>
+    <!-- End header part -->
+
+    <!-- Main content start -->
+    <main class="page-content">
+        <!-- Breadcrumb start -->
+        <section class="breadcrumb-nav py-5">
+            <div class="container">
+                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb mb-0">
+                        <li class="breadcrumb-item"><a class="cb-text-secondary reset-link" href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a class="cb-text-secondary reset-link" href="#">Blog</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Blog title</li>
+                    </ol>
+                </nav>
+            </div>
+        </section>
+        <!-- Breadcrumb end -->
+        <!-- Post details start -->
+        <section class="main-content pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9">
+                        <div class="article-wrap bg-white rounded shadow-sm py-4 px-3">
+                            <article>
+                                <h2 class="post-title pb-3">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, facere.
+                                </h2>
+                                <a href="#" class="thumbnail-link">
+                                    <img class="img-fluid post-thumbnail" src="assets/img/blog-thumb.jpeg" alt="">
+                                </a>
+                                <div class="post-info py-4">
+                                    <ul class="reset-list d-flex flex-column flex-md-row">
+                                        <li class="me-3">
+                                            <a class="cb-text-secondary reset-link" href="#"><i class="bi-calendar-date me-2"></i>17 Oct, 2021</a>
+                                        </li>
+                                        <li class="me-3">
+                                            <a class="cb-text-secondary reset-link" href="#"><i class="bi-person me-2"></i>constrobuild</a>
+                                        </li>
+                                        <li class="me-3">
+                                            <a class="cb-text-secondary reset-link" href="#"><i class="bi-chat-dots me-2"></i>11 comments</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="post-content pb-3">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo magni voluptate quia enim cum, amet esse atque recusandae ex rerum, nulla nihil fugiat sit eveniet voluptatibus unde aliquid sequi similique eius tempora reprehenderit. Officia ex quaerat ut doloremque, quo reprehenderit, libero voluptatum rem aperiam rerum consequuntur, provident doloribus. Pariatur nisi, fuga maxime, culpa nesciunt consequatur deserunt architecto quidem quaerat consequuntur est obcaecati, voluptates optio aut. Blanditiis, molestiae eveniet. Eligendi, suscipit dolor mollitia sequi soluta quam aliquam modi provident voluptatem aliquid? Molestias obcaecati dolores id harum magnam, nulla veniam necessitatibus ad est maxime alias suscipit eligendi enim, dolorem commodi aperiam reiciendis voluptates mollitia excepturi fugit nam? Dolorem laudantium illum at repudiandae, reprehenderit, suscipit ut ea voluptatum, id consequatur repellendus. Quo molestiae nemo esse eum debitis cupiditate! Ratione accusamus rerum non? Repudiandae illo quibusdam non aut et officia incidunt cupiditate recusandae? Fugiat ducimus nemo veritatis at et aspernatur incidunt itaque quae velit quis optio quia sint suscipit assumenda sit id neque dolorem cum, expedita obcaecati laudantium? Ipsum cum mollitia voluptates vero, voluptatibus tenetur quam temporibus eius quasi odit animi culpa, delectus, laborum rerum consequuntur numquam error hic eos. Nihil quos laudantium repellendus veritatis, illo hic voluptas eum recusandae similique tempore voluptate atque!
+                                    </p>
+                                </div>
+                            </article>
+                            <nav class="post-navigation">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <a href="#" class="prev-post reset-link cb-text-secondary"><i class="bi-arrow-left"></i> Previous post</a>
+                                    </div>
+                                    <div class="col-md-6 text-lg-end">
+                                        <a href="#" class="prev-post reset-link cb-text-secondary"> Next post <i class="bi-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <aside class="sidebar">
+                            <div class="sidebar-wrap">
+                                <!-- Search widget start -->
+                                <div class="widget-wrap p-4 mb-3 bg-white rounded shadow-sm">
+                                  <div class="input-group mb-3">
+                                    <input type="text" class="form-control" placeholder="Search..." aria-label="Recipient's username" aria-describedby="button-addon2">
+                                    <div class="input-group-append">
+                                      <button class="button-primary" type="button" id="button-addon2">Search</button>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Search widget end -->
+          
+                                <!-- Category widget start -->
+                                <div class="widget-wrap p-4 mb-3 bg-white rounded shadow-sm">
+                                  <h4 class="widget-title">Categories</h4>
+                                  <ul class="list-group list-group-flush">
+                                    <li class="list-group-item d-inline-flex flex-row"><i class="bi-folder me-2"></i> Cras justo odio</li>
+                                    <li class="list-group-item d-inline-flex flex-row"><i class="bi-folder me-2"></i> Dapibus ac</li>
+                                    <li class="list-group-item d-inline-flex flex-row"><i class="bi-folder me-2"></i> Morbi leo</li>
+                                    <li class="list-group-item d-inline-flex flex-row"><i class="bi-folder me-2"></i> Porta ac</li>
+                                    <li class="list-group-item d-inline-flex flex-row"><i class="bi-folder me-2"></i> Vestibulum</li>
+                                  </ul>
+                                </div>
+                                <!-- Category widget end -->
+                              </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Post details end -->
+    </main>
+    <!-- Main content end -->
+
+    <!-- Start footer -->
+    <footer class="site-footer cb-bg-secondary text-white">
+        <!-- footer main start -->
+        <section class="footer-main pt-5 pb-3">
+            <div class="container">
+                <div class="row gx-5">
+                    <div class="col-lg-3 col-md-6 py-3 py-lg-0">
+                        <!-- Widget start -->
+                        <div class="widget-wrap">
+                            <div class="logo-wrap">
+                                <img class="img-fluid" src="./assets/img/constrobuild-logo-white.png" alt="">
+                                <p class="pt-3">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut rem eveniet,
+                                    consequuntur nostrum alias voluptatum ipsa consectetur minus sunt, dolores
+                                    voluptatem? Magni ad nisi enim!
+                                </p>
+                                <div class="cb-social-links">
+                                    <ul class="d-flex align-items-center justify-content-start">
+                                        <li>
+                                            <a href="#">
+                                                <span class="icon-wrapper p-2"><i class="bi-facebook"></i></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><span class="icon-wrapper p-2"><i
+                                                        class="bi-twitter"></i></span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><span class="icon-wrapper p-2"><i
+                                                        class="bi-instagram"></i></span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><span class="icon-wrapper p-2"><i
+                                                        class="bi-linkedin"></i></span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><span class="icon-wrapper p-2"><i
+                                                        class="bi-youtube"></i></span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- widget end -->
+                    </div>
+                    <div class="col-lg-3 col-md-6 py-3 py-lg-0">
+                        <!-- widget start -->
+                        <div class="widget-wrap">
+                            <h5 class="widget-title">Quick Links</h5>
+                            <ul class="cb-list mt-3">
+                                <li class="cb-list-item"><a href="#">Home</a></li>
+                                <li class="cb-list-item"><a href="#">About</a></li>
+                                <li class="cb-list-item"><a href="#">Contact</a></li>
+                                <li class="cb-list-item"><a href="#">Portfolios</a></li>
+                                <li class="cb-list-item"><a href="#">Projects</a></li>
+                            </ul>
+                        </div>
+                        <!-- widget end -->
+                    </div>
+                    <div class="col-lg-3 col-md-6 py-3 py-lg-0">
+                        <!-- widget start -->
+                        <div class="widget-wrap">
+                            <h5 class="widget-title">Recent Projects</h5>
+                            <ul class="cb-list mt-3">
+                                <li class="cb-list-item"><a href="#">Home</a></li>
+                                <li class="cb-list-item"><a href="#">About</a></li>
+                                <li class="cb-list-item"><a href="#">Contact</a></li>
+                                <li class="cb-list-item"><a href="#">Portfolios</a></li>
+                                <li class="cb-list-item"><a href="#">Projects</a></li>
+                            </ul>
+                        </div>
+                        <!-- widget end -->
+                    </div>
+                    <div class="col-lg-3 col-md-6 py-3 py-lg-0">
+                        <!-- widget start -->
+                        <div class="widget-wrap">
+                            <h5 class="widget-title">Recent Posts</h5>
+                            <ul class="cb-list mt-3">
+                                <li class="cb-list-item">
+                                    <a href="#">
+                                        <div class="row gx-2">
+                                            <div class="col-4">
+                                                <img class="cb-post-thumbnail h-100 w-100"
+                                                    src="assets/img/blog-thumb.jpeg" alt="">
+                                            </div>
+                                            <div class="col-8">
+                                                <h6 class="post-title">Lorem ipsum dolor sit amet.</h6>
+                                                <small class="text-muted">27 oct, 2021</small>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="cb-list-item">
+                                    <a href="#">
+                                        <div class="row gx-2">
+                                            <div class="col-4">
+                                                <img class="cb-post-thumbnail h-100 w-100"
+                                                    src="assets/img/blog-thumb.jpeg" alt="">
+                                            </div>
+                                            <div class="col-8">
+                                                <h6 class="post-title">Lorem ipsum dolor sit amet.</h6>
+                                                <small class="text-muted">27 oct, 2021</small>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="cb-list-item">
+                                    <a href="#">
+                                        <div class="row gx-2">
+                                            <div class="col-4">
+                                                <img class="cb-post-thumbnail h-100 w-100"
+                                                    src="assets/img/blog-thumb.jpeg" alt="">
+                                            </div>
+                                            <div class="col-8">
+                                                <h6 class="post-title">Lorem ipsum dolor sit amet.</h6>
+                                                <small class="text-muted">27 oct, 2021</small>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- widget end -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- footer main end -->
+
+        <section class="copyright-area p-3 bg-black">
+            <div class="container text-center">
+                <p class="mb-0">&copy;ConstroBuild. All rights reserved</p>
+            </div>
+        </section>
+    </footer>
+    <!-- End footer -->
+
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

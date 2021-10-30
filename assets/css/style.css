@@ -30,6 +30,18 @@ body {
   background-color: #F2DFD8;
 }
 
+.cb-text-primary {
+  color: #BF452A;
+}
+
+.cb-text-secondary {
+  color: #122640;
+}
+
+.cb-text-light-pink {
+  color: #F2DFD8;
+}
+
 .cb-container-fluid {
   max-width: 1200px;
   margin: 0 auto;
