@@ -95,9 +95,46 @@ body{
         }
     }
 }
+/* page styles */
+
+.page-breadcrumb {
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../img/page-breadcrumb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    .breadcrumb-item a, .breadcrumb-item::before, .breadcrumb-item {
+        @include setFont(16px, 500, #fff);
+        transition: all 0.5s;
+    }
+    .breadcrumb-item:not(.active):hover, .breadcrumb-item:not(.active) a:hover {
+        color: lighten( $primary, 30%);
+    }
+}
+
+/* Comment area */
+
+.comment-card {
+    .comment-avatar {
+        max-width: 60px;
+        max-height: 60px;
+        object-fit: cover;
+    }
+}
 
 @media (max-width:991px) {
     .header-main li.nav-item:not(:first-child) {
         margin-left: 0;
     }
+}
+@media (max-width: 767px) {
+    .comment-card {
+        .comment-avatar {
+            max-width: 40px;
+            max-height: 40px;
+        }
+    } 
 }
